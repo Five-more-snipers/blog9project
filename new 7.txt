@@ -1,0 +1,34 @@
+composer create-project laravel/laravel blog9project "9.*"
+
+http://127.0.0.1:8000/about?ageCheck=22
+
+Created with
+Laravel 9.52.16
+Larabel Breeze (Pakai Auth system)
+Mailtrap utnuk uji Forgot Password Email Delivery & Verification System
+
+php artisan breeze:install
+
+npm install && npm run dev
+// Konfigurasi db agar sdi-link dengan yang di MySQL
+php artisan migrate
+
+php artisan r:l untuk cek rute migrasi
+
+Pakai
+Laravel 9, Breze, Template Fornt End & Back End
+Toastr notification system
+Rasalina Template
+
+Kekurangan
+- Verification System
+- Notifkasi reset password
+- Sekarang Login System gabisa
+
+-- Cara Bikin Backup
+
+php artisan config:cache
+php artisan cache:clear
+php artisan view:clear
+
+{{ asset('frontend/') }}
